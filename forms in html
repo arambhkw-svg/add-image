@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta chartset="utf-8">
+    <meta name ="view port" content = "width=device-width">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+    <h1> personal details</h1>
+    <form>
+        <label>name</label><br>
+        <input type ="text" id="name"><br>
+        <label>father's name</label>
+        <input type="text" id="father's name"><br>
+        <label>age</label>
+        <input type="number" id="age"><br>
+        <label>address</label>
+        <input type="text" id="address"><br>
+        <label>blood group</label>
+        <input type="text" id="blood group"><br>
+        <label>email</label><br>
+        <input type="text" id="email"><br><br>
+		  <label>Contact Number (This will be hidden)</label><br>
+		  <input type="password" id="contact"><br><br>
+    </form>
+    <label>gender</label><br>
+    <input type="radio" id="female" value="female"> <br>
+    <input type="radio" id="male" value="male"> <br>
+    <label>favourite city</label>
+    <input type="checkbox" id="city" value="new delhi"> new delhi <br>
+    <input type="checkbox" id="city"value="mumbai"> mumbai <br>
+</form>
+</body>
+</html>
